@@ -1,0 +1,79 @@
+body {
+    background: url('../assets/images/fishnets-and-hearts.png');
+    margin:0;
+}
+.position-name{
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+.main-container{
+    border: 1px solid rgb(65, 65, 65);
+    background-color: rgb(245, 245, 245);
+    margin-top: 1em;
+    position: relative;
+}
+img {
+    max-width:215px;
+    max-height:165px;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.position-content{
+    margin: 5em;
+}
+.nav-item{
+    border: 1px solid black;
+    padding: 0;
+    width: 100%;
+    position: relative;
+}
+.center-text{
+    
+    text-align: center;
+    white-space: nowrap;
+    align-content: center;
+    border: 1px solid rgb(65, 65, 65);
+    align-self: center;
+    align-self: auto;
+}
+.index-content-container{
+    border: 1px solid rgb(65, 65, 65);
+    margin-top: 3em;
+}
+.portfolio-item{
+    padding:0;
+}
+/* #port-cell{
+    padding:5em;
+} */
+.portfolio-cell{
+
+    padding:.5em;
+    position: relative;
+    overflow: hidden;
+    clear: both;
+}
+label {
+    display: block;
+    width: 90px;
+    color:#777777;
+}
+input, textarea {
+    font: 1em sans-serif;
+    height:2em;
+    width: 90%;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    padding: 10px;
+}
+textarea {
+    vertical-align: top;
+    height: 10em;
+}
+#form-container {
+    margin-left: 5%;
+}
