@@ -5,26 +5,50 @@ body {
 .position-name{
     text-align: center;
     white-space: nowrap;
-    margin-top: 2em;
-    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-bottom: 0em;
 }
-.main-container{
+p, a, h2{
+    color: rgb(90, 90, 90);
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+a:hover{
+    transition: 300ms;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.body-container{
     border: 1px solid rgb(65, 65, 65);
     background-color: rgb(245, 245, 245);
     margin-top: 1em;
     position: relative;
+    height: 100vh;
 }
+
+.content-container{
+    background-color: rgb(245, 245, 245);
+    margin-top: 1em;
+    position: relative; 
+    margin-top:5%;
+    padding-bottom: 2.5rem;
+}
+
 .position-content{
-    display: inline;
     padding:1em;
     z-index: 0;
 }
+
 #position-titleimg{
-    height: 150px;
-    width: 200px;
+    width: 210px;
     float:left;
-    margin:1em;
-    box-shadow:1px #092c0f;
+    margin:1em 1em 0em 1em;
     position: relative;
     overflow: hidden;
 }
@@ -38,7 +62,7 @@ img {
     position: relative;
 }
 .nav-item{
-    border: 1px solid black;
+    color: rgb(90, 90, 90);
     padding: 0;
     width: 100%;
     position: relative;
@@ -52,22 +76,36 @@ img {
     align-self: center;
     align-self: auto;
 }
+.port-container{
+    margin-top: 5%;
+}
 .index-content-container{
-    border: 1px solid rgb(65, 65, 65);
     margin-top: 3em;
 }
 .portfolio-item{
     padding:0;
 }
-/* #port-cell{
-    padding:5em;
-} */
-.portfolio-cell{
 
+.portfolio-cell{
     padding:.5em;
     position: relative;
     overflow: hidden;
     clear: both;
+    text-align: center;
+}
+.portfolio-label {
+    display: inline-block;
+    z-index: 99%;
+    height:40px;
+    background-color:#1e2f4e;
+    width: 215px;
+    bottom: 40px;
+    color: #ffffff;
+}
+
+.portfolio-label-text {
+    margin-top: 5px;
+    color: #acacac;
 }
 label {
     display: block;
@@ -88,4 +126,45 @@ textarea {
 }
 #form-container {
     margin-left: 5%;
+}
+.button {
+    position:relative;
+    margin-top:1em;
+    height: 40px;
+    width:100px;
+    background-color:#777777;
+    color:white;
+    border-radius: 7px;
+}
+.button:hover{
+    transition: 100ms;
+    background-color:#253141;
+}
+#contact-text{
+    margin: 0% 0% 0% 6%;
+}
+#title-pre{
+    float: left;
+    margin-left: 10%;
+    margin-top:1em;
+    margin-bottom: 0em;
+}
+#title-post{
+    float: right;
+    margin-right: 15%;
+    margin-bottom: 3em;
+}
+.footer-container{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    background-color:#2b2f35;
+    color: #acacac;
+    border: #777777 solid 1px;
+    padding: 0px;
+    height: 3rem;
+}
+.footer-content{
+    text-align: center;
+    padding-top: 15px;
 }

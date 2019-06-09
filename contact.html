@@ -13,10 +13,12 @@
 </head>
 
 <body>
-    <div class="container main-container">
+    <div class="container body-container">
         <div class="row">
-            <div class="col align-self-center">
+            <div class="col-md-4 offset-4">
+                <p id="title-pre"></p>
                 <h1 class="position-name">Contact</h1>
+                <p id="title-post">Tim</p>
             </div> 
         </div>
         <nav class="row">
@@ -32,46 +34,54 @@
             </nav>
             <div class="col-md-3"><hr></div>
         </nav>
-    <section class="container main-container">
+        <section class="container content-container">
+            <div class="row">
+                <div class= "col-md-12" id= "contact-text">
+                    <p>I'd love to hear from you.  Please send a message below.</p>
+                </div>
+                <hr>
+            </div>
+            <form class="contact-form container" id= "form-container" action="/form_handler" method="post">
+                <div class= "row">
+                    <div class= "col-md-12">
+                        <div class="name-field">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="user_name" placeholder="John Smith">
+                        </div>
+                    </div>
+                </div>
+                <div class= "row">
+                    <div class= "col-md-12">
+                        <div class="email-field">   
+                            <label for="mail">E-mail:</label>
+                            <input type="email" id="mail" name="user_mail" placeholder="example@gmail.com">
+                        </div>   
+                    </div>
+                </div>  
+                <div class= "row">
+                    <div class= "col-md-12"> 
+                        <div class="msg-field">
+                            <label for="msg">Message:</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class= "row">
+                    <div class= "col-md-12">
+                        <button class="button" type="submit">
+                        Submit
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+    <footer class="container footer-container">
         <div class="row">
-            <h1 class="site-title">Contact</h1>
-            <hr>
+            <div class="col align-self-center text-center footer-content">
+            Copyright 2019
+            </div>
         </div>
-        <form class="contact-form container" id= "form-container" action="/form_handler" method="post">
-            <div class= "row">
-                <div class= "col-md-12">
-                    <div class="name-field">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="user_name" placeholder="John Smith">
-                    </div>
-                </div>
-            </div>
-            <div class= "row">
-                <div class= "col-md-12">
-                    <div class="email-field">   
-                    <label for="mail">E-mail:</label>
-                    <input type="email" id="mail" name="user_mail" placeholder="example@gmail.com">
-                    </div>   
-                </div>
-            </div>  
-            <div class= "row">
-                <div class= "col-md-12"> 
-                    <div class="msg-field">
-                        <label for="msg">Message:</label>
-                        <textarea id="msg" name="user_message"></textarea>
-                    </div>
-            <div class= "row">
-                <div class= "col-md-12">
-                    <button class="button" type="submit">
-                    Submit
-                    </button>
-                </div>
-            </div>
-        </form>
-    </section>
-<footer class="footer-style">
-<div class="footer-content">
-Copyright 2019
-</div>
-</footer>
+    </footer>
 </body>
+</html>
