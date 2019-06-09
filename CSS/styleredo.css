@@ -14,6 +14,21 @@ body {
     margin-top: 1em;
     position: relative;
 }
+.position-content{
+    display: inline;
+    padding:1em;
+    z-index: 0;
+}
+#position-titleimg{
+    height: 150px;
+    width: 200px;
+    float:left;
+    margin:1em;
+    box-shadow:1px #092c0f;
+    position: relative;
+    overflow: hidden;
+}
+
 img {
     max-width:215px;
     max-height:165px;
@@ -21,9 +36,6 @@ img {
     height: auto;
     overflow: hidden;
     position: relative;
-}
-.position-content{
-    margin: 5em;
 }
 .nav-item{
     border: 1px solid black;
