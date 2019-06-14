@@ -1,6 +1,8 @@
 body {
+    position:relative;
     background: url('../assets/images/fishnets-and-hearts.png');
     margin:0;
+
 }
 .position-name{
     text-align: center;
@@ -37,7 +39,8 @@ a:hover{
     margin-top: 1em;
     position: relative; 
     margin-top:5%;
-    padding-bottom: 2.5rem;
+    min-height: 100vh;
+    padding-bottom: 3rem;
 }
 
 .position-content{
@@ -155,14 +158,13 @@ textarea {
     margin-bottom: 3em;
 }
 .footer-container{
-    position: relative;
-    width: 100%;
     bottom: 0;
     background-color:#2b2f35;
     color: #acacac;
     border: #777777 solid 1px;
     padding: 0px;
     height: 3rem;
+    width: 100%;
 }
 .footer-content{
     text-align: center;
