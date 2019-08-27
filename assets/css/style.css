@@ -1,0 +1,188 @@
+body {
+    position:relative;
+    background: url('../../assets/images/fishnets-and-hearts.png');
+    margin:0;
+    height: 100%;
+
+}
+.position-name{
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
+p, a, h2{
+    color: rgb(90, 90, 90);
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+a:hover{
+    transition: 300ms;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.body-container{
+    border: 1px solid rgb(65, 65, 65);
+    background-color: rgb(245, 245, 245);
+    margin-top: 1em;
+    position: relative;
+    min-height: 100%;
+    max-width: 70%;
+}
+
+.content-container{
+    background-color: rgb(245, 245, 245);
+    margin-top: 1em;
+    position: relative; 
+    margin-top:0%;
+    min-height: 100vh;
+    padding: 10px;
+    padding-bottom: 60px;
+}
+
+.position-content{
+    padding:1em;
+    z-index: 0;
+}
+
+#position-titleimg{
+    width: 210px;
+    float:left;
+    margin:1em 1em 0em 1em;
+    position: relative;
+    overflow: hidden;
+}
+
+img {
+    max-width:auto;
+    max-height:165px;
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.nav-item{
+    color: rgb(90, 90, 90);
+    padding: 0;
+    width: 100%;
+    position: relative;
+}
+.center-text{
+    
+    text-align: center;
+    white-space: nowrap;
+    align-content: center;
+    border: 1px solid rgb(65, 65, 65);
+    align-self: center;
+    align-self: auto;
+}
+.port-container{
+    margin-top: 5%;
+}
+.index-content-container{
+    margin-top: 3em;
+}
+.portfolio-item{
+    padding:0;
+}
+
+.portfolio-cell{
+    padding:.5em;
+    border: 1px solid #dfdfdf;
+    position: relative;
+    overflow: hidden;
+    clear: both;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.portfolio-label {
+    display: inline-block;
+    z-index: 99%;
+    height:60px;
+    background-color:#1e2f4e;
+    width: 100%;
+    bottom: 40px;
+    color: #ffffff;
+}
+
+.portfolio-label-text {
+    margin-top: 5px;
+    color: #acacac;
+}
+
+.secondary-label-text{
+    margin-top: -20px;
+    font-size: .75em;
+    color: #acacac;
+}
+label {
+    display: block;
+    width: 90px;
+    color:#777777;
+}
+input, textarea {
+    font: 1em sans-serif;
+    height:2em;
+    width: 90%;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    padding: 10px;
+}
+textarea {
+    vertical-align: top;
+    height: 10em;
+}
+#form-container {
+    margin-left: 5%;
+}
+.button {
+    position:relative;
+    margin-top:1em;
+    height: 40px;
+    width:100px;
+    background-color:#777777;
+    color:white;
+    border-radius: 7px;
+}
+.button:hover{
+    transition: 100ms;
+    background-color:#253141;
+}
+#contact-text{
+    margin: 0% 0% 0% 6%;
+}
+#title-pre{
+    float: left;
+    margin-left: 10%;
+    margin-top:1em;
+    margin-bottom: 0em;
+}
+#title-post{
+    float: right;
+    margin-right: 15%;
+    margin-bottom: 3em;
+}
+.footer-container{
+    position: absolute;
+    bottom: 0;
+    background-color:#2b2f35;
+    color: #acacac;
+    border: #777777 solid 1px;
+    padding: 0px;
+    height: 60px;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.footer-content{
+
+    padding-top: 15px;
+
+}
